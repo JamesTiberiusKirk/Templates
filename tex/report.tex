@@ -1,0 +1,102 @@
+\documentclass[]{report}
+
+\makeatletter
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+
+\usepackage[bottom=1in,top=1in, a4paper, total={6in, 8in}]{geometry}
+
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{ - Week }
+\rhead{By Dumitru Vulpe}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Title Page
+\title{ }
+\author{Dumitru Vulpe}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+	\section{Introduction}
+	
+	\newpage
+	\section{Requirements}
+	\begin{enumerate}
+		
+	\end{enumerate}
+	
+	\newpage
+	\section{Pseudo Code}
+	\begin{lstlisting}
+	for this than that
+	\end{lstlisting}
+	\newpage
+	\section{Class Diagram}
+	
+	\newpage
+	\section{Test Plan \& Results}
+	\begin{center}
+		\begin{tabular}{|p{0.2cm}|p{2.6cm}|p{4cm}|p{4cm}|p{1.3cm}|p{0.7cm}|}
+			\hline
+			{\bf \#} & {\bf Test} & {\bf Input Data} & {\bf Expected Results} & {\bf Actual results} & {\bf Y/N} \\
+			
+		\end{tabular}  
+	\end{center}
+	\newpage
+	\section{Critical Self Evaluation}
+	
+	\subsection{Positives}
+
+	\subsection{Negatives}
+	
+	
+\end{document}          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
